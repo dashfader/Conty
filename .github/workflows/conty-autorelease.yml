@@ -1,6 +1,8 @@
 name: Conty AutoRelease CI
 
 on:
+  schedule:
+    - cron:  '30 1 * * 1'
   workflow_dispatch:
 
 jobs:
